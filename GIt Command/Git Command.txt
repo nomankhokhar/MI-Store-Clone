@@ -1,0 +1,10 @@
+$ git config --global user.email "aliyounas084@gmail.com"
+$ git config --global user.name "Noman Ali"
+touch .gitignore
+git init
+git add .
+git commit -m "Intial commit"
+git status
+git remote add origin git@github.com:NomanKhokhar/MI-Store-Clone.git
+git push origin master
+ssh-keygen -t rsa -b 4096 -C "aliyounas084@gmail.com"  // c/Users/Kali/.ssh/id_rsa.pub

@@ -1,0 +1,85 @@
+.PreFooter{
+    margin: 5vmax 0 0 0;
+    background-color: white;
+    padding: 1vmax;
+    padding-bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    flex-wrap: wrap;
+}
+.PreFooter > div{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgba(66,66,66,.829);
+    cursor: pointer;
+}
+.PreFooter >div:hover svg{
+    fill : rgb(34,34,34);
+}
+.PreFooter > div:hover p{
+    color: rgb(19,18,18);
+}
+.PreFooter span{
+    text-align: left;
+}
+.PreFooter svg{
+    transform: scale(2) translateY(-.2vmax);
+    fill:rgba(37,37,37,.322);
+    margin: 2vmax;
+}
+.PreFooter2{
+    display: grid;
+    height: 150px;
+    grid-template-columns: repeat(4,1fr);
+}
+.PreFooter2>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(66,66,66,.829); */
+}
+.PreFooter2 > div > p{
+  color: rgba(0,0,0,.842);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.5vmax;
+  width: 18vmax;
+  margin: 0%;
+}
+.PreFooter > div > span{
+    color: rgba(51,51,51,.842);
+    width: 18vmax;
+    font-size: 1vmax;
+    width: 20.4vmax;
+}
+
+.PreFooter2 > div:nth-child(4){
+    flex-direction: row;
+}
+
+.PreFooter2 > div:nth-child(4) > svg
+{
+    cursor: pointer;
+    margin: 1vmax;
+    fill: rgba(137,137,137,.322);
+    transform: scale(1.5);
+}
+.PreFooter2 > div:nth-child(4) > svg:hover{
+    fill:rgb(94,94,94);
+}
+.LastFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 2vmax;
+    background-color: black;
+    padding: 2vmax;
+    transition: all .3s;
+}
+.LastFooter:hover{
+    color: white;
+    letter-spacing: .1vmax;
+}
+  

@@ -1,0 +1,52 @@
+.footer{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+    padding: 4.5vmax;
+    background-color: rgb(37,37,37);
+    color: rgb(197,197,197);
+    flex-wrap: wrap;
+}
+.footer > div{
+    margin: 1vmax;
+    display: flex;
+    flex-direction: column;
+}
+.footer > div a{
+    color:rgb(197,197,197);
+}
+
+.footer > div a:hover{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.footer > div:last-child>div{
+    width: 45%;
+    margin:1vmax 0;
+}
+.footer >div :last-child >button{
+    border: 1px solid white;
+    background-color: rgb(37,37,37);
+    padding: .9vmax;
+    padding: 0 1.5vmax;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 100;
+    transition: all .5s;
+}
+.footer > div:last-child >button:hover{
+    background-color: white;
+    color: black;
+}
+.footerBorder{
+   background-color: rgb(37,37,37);
+   color: white;
+}
+.footerBorder > div{
+    border-top: 1px solid rgb(197,197,197);
+    color: rgb(197,197,197);
+    width: 90vmax;
+    margin: auto;
+    padding: 2vmax;
+    font-size: .98vmax;
+}
